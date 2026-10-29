@@ -21,6 +21,13 @@
 - lx, ly: dove sta il cartiglio (% della mappa). Le prove libere hanno solo questi.
 - foto: nome del file in `foto/`. aiuto: immagini di suggerimento separate da virgola. link: pulsante opzionale (es. il brano del Teatro). visibile: `1` o `0`.
 
+## Classifica in tempo reale
+1. Nel foglio Google crea una scheda `Classifica` con due colonne: `squadra`, `punti`. Puoi scrivere una riga per ogni prova valutata: la guida somma da sola i punti della stessa squadra.
+2. File → Condividi → Pubblica sul web → scheda Classifica → formato CSV. Incolla il link in `CONFIG.classificaCSV`.
+3. Il pulsante Classifica mostra le barre in ordine e si aggiorna ogni 30 secondi mentre è aperta. Google può ritardare la pubblicazione di qualche minuto.
+4. Serve un foglio Google: un file Excel sul computer non può essere letto dal sito. Se hai un file Excel, caricalo su Google Drive e aprilo con Fogli Google.
+5. Senza link mostra dati di esempio, segnalati con una nota gialla.
+
 ## Altra città
 Sostituisci `mappa.jpg` (16:9) e `foto/`, cambia `CONFIG` (titolo, arrivo, WhatsApp, regolamento, riquadro) e riposiziona x, y, lx, ly nel foglio.
 
